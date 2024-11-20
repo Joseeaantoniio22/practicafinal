@@ -20,7 +20,10 @@ html, body{
     padding: 0px;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
     background-color: white;
+    display: flex;
+    flex-direction: column;
 }
 nav ul{
     margin-top: 1px;
@@ -47,73 +50,68 @@ nav ul li a{
     height: 35px;
     
 }
-
 nav ul li :hover{
     box-shadow: 0px 0px 20px rgb(211, 211, 3);
 }
 main{
+    margin-top: 50px;
     display: flex;
     flex: 1;
-    align-items: center;
-    justify-content: space-around;
-    margin-bottom: 187px;
 }
-.resultado{
-    width: 400px;
-    height: 320px;
-    padding-top: 10px;
-}
-.levante{
-    width: 400px;
-    height: 320px;
-    padding-top: 10px;
-}
-.mini{
-    width: 150px;
-    height: 100%;
-    padding-right: 10px;
-
-}
-.aaron{
-    width: 150px;
-    height: 100px;
-    padding-right: 10px;
-}
-.entreno{
-    width: 150px;
-    height: 100px;
-    padding-right: 10px;
-}
-
 section{
-    margin-top: 100px;
-    box-shadow: 0px 0px 20px grey;
-    border-radius: 10px;
-    background-color: rgb(255, 255, 255);
-    width: 420px;
-    height: 500px;
-    padding: 10px 40px;
+    margin-left: 30px;
+    margin-right: 30px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-
+    border-radius: 15px;
+    width: 100%;
+    margin-bottom: 50px;
 }
-
-section div{
-    border: 1px solid black;
-    border-radius: 20px;
-    box-shadow: 0px 0px 10px black;
+section div {
     display: flex;
     flex-direction: column;
+    width: 30%;
+    margin-left: 50px;
+}
+input:required{
+    background-color: red;
+}
+.texto{
+    width: 200px;
+}
+textarea{
+    max-width: 400px;
+    min-width: 400px;
+    max-height: 200px;
+    min-height: 200px
+}
+button{
     margin-top: 20px;
-    padding: 10px 10px;
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+button:hover{
+    background-color: darkblue;
+    border-radius: 50px;
+    border-bottom: 100px;
+}
+table{
+    border-collapse: collapse;
+}
+th, td{
+    border: 1px solid black;
+   padding: 10px 20px;
+}
+th, td:hover{
+    background-color: rgb(186, 199, 6);
+}
+th, .estilo{
+    background-color: darkblue;
+    color: white;
+}
 
-}
-.noticias{
-    display: flex;
-    flex-direction: row;
-    font-size: 15px;
-}
 
 footer {
     background-color: darkblue;
@@ -125,8 +123,13 @@ footer {
     font-size: 17px;
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: auto;
 }
 div img{
     width: 50px;
     height: 50px;
+}
+div img:hover{
+    width: 60px;
+    height: 60px;
 }
