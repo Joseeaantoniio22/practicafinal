@@ -1,0 +1,154 @@
+@font-face{
+    font-family: letras_especiales;
+    src: url(../fuentes/Just_Another_Hand\,Lobster\,Modak\,Ribeye_Marrow/Lobster/Lobster-Regular.ttf) format('truetype');
+}
+.escudo{
+    transform:translate(-20px,0px) rotate(-10deg) scale(1.0,1.0);;
+}
+header{
+    background-color: #082646;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    height: 150px;
+
+}
+header img{
+    display: flex;
+    justify-content: flex-start;
+    width: 100px;
+    height: 100px;
+}
+html, body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+nav ul{
+    margin-top: 1px;
+    background-color: #082646;
+    list-style-type: none;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+}
+nav ul li{
+    padding: 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li a{
+    font-family: letras_especiales;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    background-color: #082646;
+    padding: 10px 10px;
+    box-shadow: 0px 0px 10px white;
+    border-radius: 20px;
+    height: 35px;
+    
+}
+nav ul li :hover{
+    box-shadow: 0px 0px 20px rgb(211, 211, 3);
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+.principal{
+    margin: 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+div section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 20px;
+    height: 400px;
+    opacity:1;
+    border-radius: 20px;
+    transition:opacity 2s ease-out 0.5s;
+    background:-webkit-linear-gradient(top,#082646 , white);
+    background:-moz-linear-gradient(top,#082646 , white);
+    background:-o-linear-gradient(top,#082646 , white);
+}
+div section:hover{
+    opacity: 0;
+}
+
+/*.camisetas{
+    background-color:orange;
+    width:400px;
+    height:400px;
+    transition:left 5.5s, background-color 2s, width 1s, height 1s, padding-left 1s, padding-top 1s;
+}
+.camisetas:hover{
+    position:relative;
+    left:400px;
+    background-color:black;
+    width:500px;
+    height:500px;
+    padding-left:50px;
+    padding-top:20px;
+}*/
+.texto{
+    padding-left: 40px;
+    transition: opacity 2s top 3s ease-out 1s ;
+    opacity: 0;
+}
+.texto{
+    opacity: 1;
+}
+.camisetas{
+    height: 300px;
+    width: 350px;
+    border-radius: 20px;
+ }
+/*.boton{
+    font-size: 25px;
+    width: 100px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    border: 3px solid black;
+    background:-webkit-linear-gradient(top,#082646 , white);
+    background:-moz-linear-gradient(top,#082646 , white);
+    background:-o-linear-gradient(top,#082646 , white);
+    background:-ms-linear-gradient(top,#082646 , white);
+}*/
+
+footer {
+    background-color: #082646;
+    color: white;
+    height: 100px;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+    padding: 15px 15px;
+    margin-top: auto;
+}
+.imagenes img{
+    width: 50px;
+    height: 50px;
+}
+.imagenes img:hover{
+    width: 60px;
+    height: 60px;
+}
