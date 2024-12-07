@@ -74,27 +74,60 @@ main div section{
     align-items: center;
     border-radius: 10px;
     box-shadow: 3px 3px 20px grey;
-    width: 300px;
-    height: 230px;
+    width: 440px;
+    height: 420px;
     font-size: 18px;
+    padding: 20px;
 }
-.texto2{
-    margin-top: 40px;
-    text-align: center;
-    text-decoration: dashed;
-    padding:0px 20px;
-}
-.texto{
-    margin-top: 55px ;
-    text-align: center;
-    text-decoration: dashed;
-    padding: 0px 20px;
-    
+.champions{
+    height: 100px;
 }
 .principal section img{
-    width: 70px;
-    height: 70px;
-    padding-top: 15px;
+    width: 380px;
+    height: 360px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.marco{
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    width: auto;
+    height: auto;
+    background:linear-gradient(50deg,#082646,white);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.joaquin{
+    height: 300px;
+    width: 300px;
+}
+.fotos{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    height: auto;
+    width: auto;
+}
+.ascenso{
+    height: 300px;
+    width: 500px;
+    margin-top: 10px;
+}
+.autobus{
+    height: 640px;
+    width: auto;
+    padding-left: 0;
+
+}
+.prueba{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0;
 }
 footer {
     background-color: #082646;
